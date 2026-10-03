@@ -1,14 +1,11 @@
 ### 📊🐍 Computer Vision (CV)
-A centralized collection of **Python-based algorithms and implementations for Computer Vision (CV)**, complete with ready-to-run notebooks, resources, and technical references.
+*A centralized collection of **Python-based algorithms and implementations for Computer Vision (CV)**, complete with ready-to-run notebooks, resources, and technical references.*
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
----
-
-#### ✨📖 Overview
 Welcome to **Computer Vision (CV)**! This repository provides a structured toolkit of foundational and advanced computer vision techniques implemented in **Python**. 
 Designed for students, researchers, and developers, the project offers clean, reproducible, and easily executable environments to explore Image Processing and ML Models.
 
@@ -21,9 +18,7 @@ Designed for students, researchers, and developers, the project offers clean, re
 
 ---
 
-#### 💻 Technology & Environment
-All algorithms were developed and tested using **Google Colab** notebooks (`.ipynb`), ensuring accessibility without heavy local dependencies.
-
+#### 💻✨ Technology & Environment
 * **Core Language:** Python
 * **Environment:** Google Colab
 * **Key Libraries:** OpenCV, NumPy, Matplotlib, scikit-image, TensorFlow / PyTorch
