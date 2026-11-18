@@ -5,27 +5,20 @@
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
 [![Google Colab](https://img.shields.io/badge/Run%20in-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/)
 
-*Eleven hands-on notebooks on the foundations of classical computer vision with **OpenCV** and **NumPy**, each executed, explained, and checked automatically.*
+*Hands-on notebooks on the foundations of classical computer vision with **OpenCV** and **NumPy**, each executed, explained, and checked automatically.*
 
 ---
 
 #### 📓 Notebooks
 
-| # | Notebook | Topics | Run |
-| :---: | --- | --- | :---: |
-| 01 | [Color Spaces & Thresholds](Algorithms/01_Color_Spaces_and_Thresholding.ipynb) | BGR, HSV, Otsu | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/01_Color_Spaces_and_Thresholding.ipynb) |
-| 02 | [Image Histogram](Algorithms/02_Image_Histogram.ipynb) | Relative histogram, CDF, CLAHE | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/02_Image_Histogram.ipynb) |
-| 03 | [Filters and Effects](Algorithms/03_Filters_and_Effects.ipynb) | Sharpening, smoothing, gamma | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/03_Filters_and_Effects.ipynb) |
-| 04 | [Edge Detection](Algorithms/04_Edge_Detection.ipynb) | Sobel, Prewitt, Roberts, Canny | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/04_Edge_Detection.ipynb) |
-| 05 | [Morphology](Algorithms/05_Erosion_and_Dilation.ipynb) | Erosion, dilation, opening, closing | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/05_Erosion_and_Dilation.ipynb) |
-| 06 | [Fingerprint Enhancement](Algorithms/06_Fingerprint_Enhancement.ipynb) | Noise removal with morphology | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/06_Fingerprint_Enhancement.ipynb) |
-| 07 | [Connected Components](Algorithms/07_Connected_Components.ipynb) | Labeling, area, bounding boxes | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/07_Connected_Components.ipynb) |
-| 08 | [Hu Moments](Algorithms/08_Hu_Moments.ipynb) | Orientation and shape invariance | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/08_Hu_Moments.ipynb) |
-| 09 | [Template Matching](Algorithms/09_Template_Matching.ipynb) | Multi-scale search and NMS | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/09_Template_Matching.ipynb) |
-| 10 | [HOG + SVM](Algorithms/10_HOG_SVM_People_Detection.ipynb) | Pedestrian detection | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/10_HOG_SVM_People_Detection.ipynb) |
-| 11 | [BMP File Format](Algorithms/11_BMP_File_Format.ipynb) | Headers and manual decoding | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/blob/main/Algorithms/11_BMP_File_Format.ipynb) |
+All notebooks are in the [`Algorithms/`](Algorithms/) folder. Each one opens in **Google Colab** from the badge at its top, or you can browse them all in [Colab](https://colab.research.google.com/github/jrafa1607/Computer_Vision_In_Python/). Images load from `Images/` locally, or download automatically in Colab, so `Runtime > Run all` works with no setup.
 
-Each notebook loads its images from `Images/` when run locally, or downloads them from this repository in Colab, so `Runtime > Run all` works with no setup.
+| Area | Techniques covered |
+| --- | --- |
+| Image basics | Color spaces, thresholding, histograms, file formats |
+| Filtering | Smoothing, sharpening, noise removal, gamma |
+| Features | Edges, morphology, connected components, moments |
+| Detection | Template matching, HOG + SVM |
 
 ---
 
@@ -33,11 +26,12 @@ Each notebook loads its images from `Images/` when run locally, or downloads the
 
 | Check | How |
 | --- | --- |
-| Every notebook runs | CI executes all 11 on each push and weekly |
-| Images and links | Tests check paths, Colab links, and order |
+| Every notebook runs | CI executes all notebooks on each push and weekly |
+| Images and links | Tests check image paths and Colab links |
 | Reproducible results | Seeded noise, saved outputs |
 | Public-domain sample | NASA astronaut photo instead of Lenna |
 
+To add a notebook, save it in `Algorithms/` and its images in `Images/`: the CI finds and runs it automatically, with no list to update.<br>
 To run locally: `pip install -r requirements.txt`, then `pytest --nbmake Algorithms/`.
 
 ---

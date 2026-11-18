@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
 title: "Computer Vision in Python: Hands-on Notebooks with OpenCV"
-abstract: "Eleven executed Jupyter notebooks covering the foundations of classical computer vision with OpenCV and NumPy: color spaces, thresholding, histograms, filters, edge detection, morphology, connected components, image moments, template matching, HOG with a linear SVM, and the BMP file format."
+abstract: "Executed Jupyter notebooks covering the foundations of classical computer vision with OpenCV and NumPy, such as color spaces, thresholding, histograms, filters, edge detection, morphology, connected components, image moments, template matching, HOG with a linear SVM, and the BMP file format."
 type: software
 authors:
   - family-names: "Evangelista"
