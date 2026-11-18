@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Computer Vision in Python: Hands-on Notebooks with OpenCV"
+abstract: "Eleven executed Jupyter notebooks covering the foundations of classical computer vision with OpenCV and NumPy: color spaces, thresholding, histograms, filters, edge detection, morphology, connected components, image moments, template matching, HOG with a linear SVM, and the BMP file format."
+type: software
+authors:
+  - family-names: "Evangelista"
+    given-names: "João Rafael Gonçalves"
+    orcid: "https://orcid.org/0000-0003-3541-8354"
+version: "2.0.0"
+date-released: "2026-11-17"
+url: "https://github.com/jrafa1607/Computer_Vision_In_Python"
+repository-code: "https://github.com/jrafa1607/Computer_Vision_In_Python"
+keywords:
+  - computer-vision
+  - opencv
+  - image-processing
+  - jupyter-notebook
+  - education

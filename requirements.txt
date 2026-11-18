@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+opencv-python-headless>=4.8,<5
+matplotlib>=3.8
+
+# Tests
+pytest>=8
+nbmake>=1.5
